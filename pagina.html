@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #6200ea;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        header img {
+            width: 40px;
+            height: 40px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background: #3700b3;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            
+        }
+        h1, h2 {
+            color: #6200ea;
+        }
+        .logo {
+            width: 10%;
+        }
+        .hobby {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .hobby img {
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #6200ea;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.webp" alt="Logo de la página">
+        <h1>Mi Página Personal</h1>
+    </header>
+
+    <nav>
+        <a href="#biografia">Biografía</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#galeria">Galería</a>
+    </nav>
+
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>Hola, soy Adriana, una apasionada por el arte y la tecnología. Me encanta aprender sobre nuevas herramientas y utilizarlas para crear experiencias únicas. Actualmente estoy explorando el mundo del diseño web y la inteligencia artificial para expandir mis habilidades.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+
+        <div class="hobby">
+            <img src="pintura.webp" alt="Pintura">
+            <div>
+                <h3>Pintura</h3>
+                <p>Me encanta expresar mi creatividad a través de colores y lienzos. La pintura me permite desconectarme y crear mundos únicos.</p>
+            </div>
+        </div>
+
+        <div class="hobby">
+            <img src="senderismo.jpeg" alt="Senderismo">
+            <div>
+                <h3>Senderismo</h3>
+                <p>Explorar la naturaleza y caminar por senderos es mi forma favorita de recargar energías y conectar con el entorno.</p>
+            </div>
+        </div>
+
+        <div class="hobby">
+            <img src="guitarra.jpeg" alt="Guitarra">
+            <div>
+                <h3>Guitarra</h3>
+                <p>Tocar la guitarra es mi escape creativo. Disfruto aprendiendo nuevas canciones y componiendo melodías propias.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Diseños</h2>
+        <p>Próximamente, incluiré aquí logos y diseños de productos que representen mis intereses.</p>
+        <img class="logo" src="logo.webp" alt="Logo Ejemplo">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Adriana. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
